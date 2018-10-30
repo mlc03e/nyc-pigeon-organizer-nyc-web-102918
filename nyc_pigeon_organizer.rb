@@ -1,3 +1,10 @@
+require "pry"
+
+
+
 def nyc_pigeon_organizer(data)
-  # write your code here!
+  all_data = pigeon_data[:color] + pigeon_data[:gender] + pigeon_data[:lives]
+  all_data.collect do |name|
+    binding.pry
+end
 end
